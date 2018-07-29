@@ -1,6 +1,6 @@
-Documentation for Harvard Geneds:
+# *Harvard Geneds*
 
-HOW TO COMPILE?
+## How to Compile
 
 In order to compile Harvard Geneds, you must have a folder named "a_finalproject", which contains the project's HTML, Python, CSS
 and SQl code. If you are not in the a_finalproject folder, please use command "cd" to change your directory to the correct one. Make
@@ -11,7 +11,7 @@ inside the a_finalproject folder in your CS50 IDE terminal. Please click on the 
 platform of the project. Once this is done succesfully, our website will be open in your browser under a new tab.
 
 
-HOW TO USE THE WEBSITE?
+## How to Use the Website
 
 Harvard Geneds is a very user-friendly platform. Follow the instructions on the website, which will instruct you to select the
 general education requirements you still need to complete. We are aware that many classes fulfill various general education
@@ -23,5 +23,4 @@ classes you can take to fulfill the requirements will show up as well as the Q s
 With this information, you will have an easier way to fully visualize all the classes you must take and how to better shape and plan
 your Harvard academic experience.
 
-ADICIONAR INFORMACAO SOBRE Q SCORE
 
