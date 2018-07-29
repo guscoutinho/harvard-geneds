@@ -1,5 +1,5 @@
 # *Harvard Geneds*
-CS50 (Introduction to Computer Science) Final Project. Harvard Geneds was developed alongside Bia Marinho and Marcia Lagesse
+CS50 Final Project. Harvard Geneds was developed alongside Bia Marinho and Marcia Lagesse
 
 
 ## How to Compile
