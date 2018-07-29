@@ -1,0 +1,117 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+
+<html lang="en">
+<head>
+  <title>Homepage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<style>
+.jumbotron {
+    background-color: #B22222;
+    color: #ffffff;
+}
+</style>
+
+<body>
+
+  <div class="jumbotron text-center">
+    <h1>Harvard GenEds</h1>
+    <br>
+    <p>Find the GenEds you still need to complete!</p>
+  </div>
+
+<form action="/homepage" method="post">
+
+    <style>
+    .container-fluid {
+        font-family: Sans-serif;
+        font-size: 130%;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+
+    .input-list {
+        margin: 0 auto;
+        width: 400px;
+        text-align: left;
+    }
+    </style>
+
+    <div class="container-fluid">
+
+        <div class="input-list">
+
+        <legend>Select the GenEds you need to complete:</legend>
+
+
+        <div>
+            <input type="checkbox" id="AIU" name="Aesthetic and Interpretive Understanding">
+            <label for="Aesthetic and Interpretive Understanding">Aesthetic and Interpretive Understanding</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="CB" name="Culture and Belief">
+            <label for="Culture and Belief">Culture and Belief</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="EMR" name="Empirical and Mathematical Reasoning">
+            <label for="Empirical and Mathematical Reasoning">Empirical and Mathematical Reasoning</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="ER" name="Ethical Reasoning">
+            <label for="Ethical Reasoning">Ethical Reasoning</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="SLS" name="Science of the Living Systems">
+            <label for="Science of the Living Systems">Science of the Living Systems</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="SPU" name="Science of the Physical Universe">
+            <label for="Science of the Physical Universe">Science of the Physical Universe</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="SW" name="Societies of the World">
+            <label for="Societies of the World">Societies of the World</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="SP" name="Study of the Past">
+            <label for="Study of the Past">Study of the Past</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="USW" name="United States in the World">
+            <label for="United States in the World">United States in the World</label>
+        </div>
+
+        <br>
+        <input type="submit" value="Submit">
+
+        </div>
+
+    </div>
+</form>
+
+</body>
+</body>
+</html>
+{% endblock %}

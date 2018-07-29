@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Columns
+{% endblock %}
+
+
+{% block main %}
+{% for sigla, dict in columns.items() %}
+<table class="table table-striped" id="owned_stock_table">
+      <thead>
+        <tr>
+          <th>{{ sigla }}</th>
+          <th><Qscore></Qscore></th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for classname, classgrade in dict.items() %}
+        <tr>
+          <td>{{ classname }}</td>
+          <td>{{ classgrade }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+</table>
+{% endfor %}
+{% endblock %}
+
